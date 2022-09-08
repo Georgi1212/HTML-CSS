@@ -1,0 +1,44 @@
+#divTitle{
+    background-color: #cfc9c7;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  #image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #img-caption{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 10px;
+  }
+  
+  #tribute-info{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #divTribute{
+    background-color: #cfc9c7;
+    text-align: auto;
+    font-family: Arial;
+  }
+  
+  #quote{
+    text-align: center;
+    font-style: italic;
+    font-family: Arial;
+  }
+  
+  #informationWithLink{
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+  }
