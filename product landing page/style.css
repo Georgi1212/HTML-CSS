@@ -1,0 +1,159 @@
+body{
+    background-color: #e2e2e2;
+  }
+  
+  img{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 40px;
+  }
+  
+  #features{
+    display: flex;
+  }
+  
+  /* nav bar*/
+  #nav-bar{
+    background-color: #e2e2e2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: right;
+    z-index: 1;
+  }
+  #nav-bar img{
+    display: block;
+    float: left;
+    margin-top: 15px;
+  }
+  #a-nav-bar{
+    margin-top: 20px;
+  }
+  #nav-bar a{
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .h2{
+    text-align: center;
+    font-family: Helvetica;
+  }
+  
+  #email{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 25px;
+    font-family: Helvetica;
+  }
+  #submit{
+    display: block;
+    margin: auto;
+    width: 120px;
+    font-family: Helvetica;
+    background-color: #f7c11a;
+    border-color: #f7c11a;
+    font-weight: bold;
+  }
+  #submit:hover{
+    background-color: #f7861a;
+  }
+  
+  /* features */
+  .h2-info, #featuresUL p{
+    font-family: Helvetica;
+    margin-top: 10px;
+  }
+  .h2-info{
+    margin-top: 70px;
+  }
+  #featuresUL{
+    display: block;
+    margin: auto;
+  }
+  
+  /*video*/
+  #how-it-works{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #video{
+    display: block;
+    margin: auto;
+    height: 350px;
+    width: 600px;
+  }
+  
+  /*pricing*/
+  #pricing{
+    display: flex;
+    margin-top: 50px;
+  }
+  .pricing-info{
+    width: 280px;
+    margin: auto;
+    /*margin-right: 50px;
+    margin-left: 135px;*/
+    border: 2px solid black;
+    padding: 10px;
+  }
+  .pricing-header{
+    text-align: center;
+    background: #c9c9c9;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  .pricing-header p{
+    padding-bottom: 15px;
+  }
+  .pricing-info p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  .pricing-info ul{
+    font-family: Helvetica;
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  .btn{
+    font-weight: bold;
+    font-family: Helvetica;
+    padding: 7px;
+    display: block;
+    margin: auto;
+    background-color: #f7c11a;
+    border-width: 0px;
+    width: 100%;
+  }
+  .btn:hover{
+    background-color: #f7861a;
+  }
+  
+  /* footer */
+  #footer-info{
+    background-color: #c9c9c9;
+    text-align: right;
+    font-family: Helvetica;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+    line-height: 0.3;
+  }
+  #footer-info a{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+  }
+  #footer-info a:hover{
+    color: white;
+  }
